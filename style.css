@@ -1,0 +1,509 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+.header1{
+	border: 1px solid;
+	grid-template-columns: 40% 60%;
+	display: grid;
+	background-color: black;
+	font-family: 'poppins',sans-serif;
+}
+.header1-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.header1-one img{
+  width: 15%;
+  margin-top: 7px;
+  margin-left: 11px;
+}
+.header1-one select{
+  position: absolute;
+  top: 15px;
+  left: 65px;
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+.header1-one p{
+ position: absolute;
+  top: 
+  0px;
+  left: 150px;
+  color: white; 
+}
+.header1-two{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 350px;
+  list-style-type: none;
+  font-family: 'poppins',sans-serif;
+}
+.header1-two a {
+  color:white;
+  text-decoration: none;
+}
+
+
+
+.header2{
+	display: grid;
+	grid-template-columns: 20% 40% 20% 20%;
+}
+.header2-one{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	list-style-type: none;
+	margin-top: 30px;
+}
+.header2-one a{
+   text-decoration: none;
+}
+.search input {
+    padding: 10px;
+    position: relative;
+    border-radius: 30px;
+    top: 20px;
+}
+.sign button{
+	padding: 15px 40px;
+    position: relative;
+    border-radius: 30px;
+    top: 20px;
+    background-color:blue;
+    border: none; 
+}
+.sign a{
+
+	text-decoration: none;
+	color: white;
+}
+.banner{
+	background-image: url(./assets/img/hero/h1_hero.jpg);
+
+}
+.banner-two {
+	position: absolute;
+    left: 820px;
+    top: 300px;
+}
+.banner-two h3{
+	font-family:'Brush Script MT', sans-serif;
+	font-size: 40px;
+	color: blue;
+	position: relative;
+    left: 7px;
+    top: 0px;
+}
+.banner-two h2{
+position: absolute;
+top: 0px;
+text-align: left;
+font-size: 90px;
+}
+.banner-two p{
+position: relative;
+top: 150px;
+left: 10px;
+font-family: Courier New;
+}
+.banner-two button{
+padding: 15px 40px;
+position: relative;
+border-radius: 300px;
+top: 170px;
+left:15px;
+background-color:blue; 
+border: none;
+}
+.banner-two a{
+
+	text-decoration: none;
+	color: white;
+}
+
+.shop h2{
+	text-align: center;
+	font-size: 40px;
+    padding: 100px;
+}
+.category img{
+	width: 33%;
+}
+.cat-content-one{
+position: relative;
+bottom: 210px;
+left: 300px;
+}
+.cat-content-two{
+	position: relative;
+    bottom: 337px;
+    left: 56%;
+}
+.cat-content-three{
+	position: relative;
+    bottom: 453px;
+    left: 87%;
+}
+.cat-content-one button{
+	border-radius: 20px;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    position: relative;
+    bottom: 50px;
+}
+.cat-content-one h4{
+    position: relative;
+    bottom: 90px;
+    font-family: mistral;
+    color: blue;
+    font-size: 24px;
+}
+.cat-content-one h3{
+	position: relative;
+    font-size: 30px;
+    bottom: 30px;
+}
+.cat-content-two p{
+	position: relative;
+    bottom: 105px;
+    font-family: mistral;
+    font-size: 25px;
+    color: blue;
+}
+.cat-content-two h3{
+	position: relative;
+    bottom: 145px;
+    font-size: 30px;
+    right: 35px;
+}
+.cat-content-two h5{
+	position: relative;
+    bottom: 160px;
+    right: 20px;
+    font-size: 15px;
+}
+.cat-content-three button{
+	border-radius: 20px;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    position: relative;
+    bottom: 170px;
+}
+.cat-content-three h3{
+	position: relative;
+    font-size: 30px;
+    bottom: 150px;
+}
+.cat-content-three h4{
+    position: relative;
+    bottom: 210px;
+    font-family: mistral;
+    color: blue;
+    font-size: 24px;
+    }
+.products{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	position: relative;
+	left: 90px;
+    bottom: 436px; 
+}
+.product-link{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	list-style: none;
+}
+.product-link a{
+	text-decoration: none;
+	list-style: none;
+}
+.product-two{
+	margin-left: 409px;
+    position: relative;
+    right: 510px;
+    top: 30px;
+}
+.products-one{
+	font-size: 27px;
+}
+hr{
+	position: relative;
+    bottom: 465px;
+}
+
+.dress{
+	position: relative;
+    bottom: 408px;
+    left: 120px;
+}
+.dress-one{
+	position: relative;
+    left: 60px;
+}
+.dress-two{
+	position: relative;
+    bottom: 75px;
+    left: 430px;
+}
+.dress-three{
+	left: 820px;
+    position: relative;
+    bottom: 155px;
+}
+.dress-cat{
+	position: relative;
+    bottom: 540px;
+    left: 120px;
+}
+.card-man-one{
+	background-image: url(./assets/img/categori/card.png);
+	background-repeat: no-repeat;
+	position: relative;
+    bottom: 440px;
+    left: 60px;
+    height: 582px;
+    width: 80%;
+}
+.card-img{
+	position: relative;
+    bottom: 120px;
+    left: 160px;
+}
+.card-shape{
+	position: relative;
+    left: 715px;
+    bottom: 175px;
+}
+.card-man-one figcaption{	
+	position: relative;
+	left: 500px;
+    bottom: 580px;
+}
+.card-man-one h2{
+	font-size: 50px;
+}
+.card-man-one p{
+	position: relative;
+    font-size: 17px;
+    font-family: Arial;
+    bottom: 20px;
+}
+.card-man-one button{
+	border-radius: 30px;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.collections{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  bottom: 250px;
+}
+.menz1{
+  display: grid;
+  grid-template-columns:auto auto;
+  margin-top: 234px;
+}
+.collections1{
+  position: relative;
+  top: 320px;;
+  right: 70px;
+}
+.collections h2{
+  font-size: 40px;
+   position: relative;
+  left: 90px;
+  top: 80px;
+}
+.collections p{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 90px;
+  top: 70px;
+}
+.collections button{
+  border-radius: 20px;
+  padding: 15px 45px;
+  position: relative;
+  left: 90px;
+  background: blue;
+  color: white;
+}
+.collections2{
+  position: relative;
+  top: 90px;
+}
+.menz1 p{
+  position: relative;
+  top: 150px;
+
+}
+
+.Coat_container{
+  margin-left: 50px;
+}
+  /* border: 1px solid;
+  border-radius: 10px;
+
+#aside_para{
+}
+ @media screen and (min-width:320px) and (max-width: 578px){
+  body{
+    small device
+  }
+ }
+  @media screen and (min-width:578) and (max-width: 720){
+  body{
+    small device
+  }
+ }
+  @media screen and (min-width:720px) and (max-width: 1000px){
+  body{
+    small device
+  }
+ }
+  @media screen and (min-width:1000px) and (max-width: 1205px){
+  body{
+    small device
+  }
+ } */
+
+ 
+ .latest_offer{
+    background-image: url("./assets/img/hero/h1_hero.jpg");
+    width: 90%;
+    height: 350px;
+    margin: 0 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+ }
+ .news_later1{
+    flex-basis: 400px;
+ }
+ .news_later2{
+    flex-basis: 600px;
+    
+ }
+ .news_later1 h2{
+   font-size: 40px;
+ }
+ .news_later2 > input{
+   display: inline-block;
+    width: 420px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    padding: 7px;
+ }
+.news_later2 > button{
+  border-radius: 64px;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    right: 107px;
+    padding: 11px;
+    background-color: #0970de;
+    border: none;
+    color: white;
+}
+
+/*Security icons*/
+
+
+.shipping_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shipping_item1{
+  flex-basis: 400px;
+}
+.shipping_item2{
+  flex-basis: 400px;
+}
+.shipping_item3{
+  flex-basis: 400px;
+}
+
+/*Gallry imges*/
+.gallery_img{
+  display: flex;
+  margin: 80px 50px;
+
+}
+
+.gallery_img img{
+  width: 300px;
+  flex: 1;
+}
+
+/*footer-section*/
+
+.container_footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ align-items: center;
+ justify-content: center;
+ margin: 0px 120px;
+ font-family: Helvetica;
+}
+.container_footer h3{
+  margin-left: 25px;
+ 
+}
+.container_footer li{
+  list-style: none;
+  line-height: 35px;
+}
+li a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+ 
+/* .items{
+  align-items: center;
+  justify-content: center;
+} */
+
+
+.end_items{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.nav_icons{
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
